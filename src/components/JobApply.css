@@ -1,0 +1,65 @@
+.apply-job-container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    width: 90%;
+}
+
+.apply-job-container h2 {
+    text-align: center;
+}
+
+.apply-job-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.apply-job-container input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+.apply-job-container button {
+    background-color: #3498db;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.apply-job-container button:hover {
+    background-color: #2980b9;
+}
+
+.apply-job-container .message {
+    color: #e74c3c;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+    .apply-job-container {
+        padding: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .apply-job-container {
+        padding: 10px;
+    }
+
+    .apply-job-container input {
+        font-size: 14px;
+    }
+
+    .apply-job-container button {
+        font-size: 16px;
+    }
+}

@@ -1,0 +1,76 @@
+.add-job-container {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+  width: 90%;
+}
+
+.add-job-container h2 {
+  text-align: center;
+}
+
+.add-job-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.add-job-container label {
+  margin-bottom: 10px;
+  gap: 10px;
+}
+
+.add-job-container input,
+.add-job-container textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  width: 80%;
+}
+
+.add-job-container button {
+  background-color: #3498db;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+}
+
+.add-job-container button:hover {
+  background-color: #2980b9;
+}
+
+.add-job-container p {
+  color: #e74c3c;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .add-job-container {
+    padding: 15px;
+  }
+
+  .add-job-container button {
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .add-job-container {
+    padding: 10px;
+  }
+
+  .add-job-container input,
+  .add-job-container textarea {
+    font-size: 14px;
+  }
+
+  .add-job-container button {
+    font-size: 16px;
+  }
+}

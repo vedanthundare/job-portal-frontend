@@ -1,0 +1,39 @@
+.job-card {
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 10px;
+    transition: transform 0.3s;
+    cursor: pointer;
+    width: 100%;
+    max-width: 300px;
+}
+
+.job-card h3 {
+    color: #000000;
+    margin-bottom: 30px;
+}
+
+.job-card p {
+    color: #000000;
+    margin: 10px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.job-card:hover {
+    transform: scale(1.05);
+}
+
+@media (max-width: 768px) {
+    .job-card {
+        margin: 5px;
+    }
+}
+
+@media (max-width: 480px) {
+    .job-card {
+        padding: 10px;
+    }
+}
